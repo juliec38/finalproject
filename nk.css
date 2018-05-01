@@ -1,0 +1,43 @@
+.navigation {
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding-left: 20px;
+  padding-top: 100px;
+}
+h1 {
+  font-family: courier;
+  font-size: 80px;
+  text-align: center;
+}
+.center{
+  text-align: right;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
+  background: url("juche.jpg") no-repeat center;
+}
+.dictator:hover {
+  animation: flip 1s infinite linear;
+  animation-direction: alternate;
+}
+.boom {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 30%;
+}
+@keyframes flip {
+  from { transform: rotateY(0deg);
+  transform-style: preserve-3d; }
+  to { transform: rotateY(180deg);
+  transform-style: preserve-3d; }
+}
+button {
+  background-color: red;
+  border: none;
+  color: white;
+  font-size: 15px;
+  font-family: verdana;
+}

@@ -1,0 +1,15 @@
+.navigation {
+float: left;
+text-align: center;
+width: 30%;
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 100px;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: courier;
+  font-size: 80px;
+}
